@@ -255,5 +255,15 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
+  <distributionManagement>
+    <repository>
+      <id>releaseRepo</id>
+      <url>http://192.168.33.10:8082/content/repositories/releaseRepo/</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshotRepo</id>
+      <url>http://192.168.33.10:8082/content/repositories/snapshotRepo/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
 </project>
